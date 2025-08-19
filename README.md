@@ -73,6 +73,15 @@ Here’s a sample visualization of conversion rates with confidence intervals:
 
 ---
 
+## 📈 Conclusions
+
+- **Variant B outperformed Variant A** with a conversion rate of **12.6% vs 10.2%**.  
+- The uplift of **+2.36%** was **statistically significant** (*p = 0.0087, 95% CI: 0.60% → 4.12%*).  
+- Based on this experiment, the recommendation is to **roll out Variant B**, as it is highly likely to improve conversions in production.  
+
+This demonstrates how A/B testing can guide **data-driven product decisions** instead of relying on intuition.
+
+
 ## 👩‍💻 Author
 
 **Mikadataa**  
