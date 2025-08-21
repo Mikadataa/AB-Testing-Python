@@ -81,6 +81,42 @@ Here’s a sample visualization of conversion rates with confidence intervals:
 
 This demonstrates how A/B testing can guide **data-driven product decisions** instead of relying on intuition.
 
+---
+
+
+**This project demonstrated a complete A/B testing workflow in a single Jupyter Notebook:**
+
+**Synthetic Data Generation**
+
+- Created randomized user-level dataset with group assignment (A vs B) and binary outcome (converted).
+
+**Exploratory Summaries**
+
+- Computed per-group conversion rates with group_summary().
+
+- Calculated standard errors and 95% confidence intervals for each variant.
+
+**Visualization**
+
+- Plotted conversion rates with error bars using Matplotlib for quick comparison.
+
+**Hypothesis Testing**
+
+- Performed a two-proportion z-test with propor_z_test().
+
+- Measured uplift, p-values, and 95% confidence interval bounds.
+
+**Plain-English Reporting**
+
+- Interpreted statistical results into actionable recommendations (roll out B, keep A, or inconclusive).
+
+📊 Final outputs include:
+
+- Per-group summary table (conversion, standard error, confidence intervals)
+
+- Conversion rate plot with 95% CI
+
+- Z-test results with p-value, uplift, and decision recommendation
 
 ## 👩‍💻 Author
 
